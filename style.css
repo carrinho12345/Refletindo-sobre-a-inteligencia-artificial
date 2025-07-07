@@ -1,10 +1,9 @@
-:root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
-
+:root {
+    --cor-fundo: #F0F4F8;         /* Fundo claro */
+    --cor-principal: #FFFFFF;     /* Caixa principal branca */
+    --cor-secundaria: #DDE9F4;    /* Botão em repouso - azul claro */
+    --cor-destaque: #0066CC;      /* Azul forte para destaque */
+    --cor-texto: #1A1A1A;         /* Texto escuro para contraste */
 }
 
 body {
@@ -16,15 +15,17 @@ body {
     min-height: 100vh;
 }
 
-.caixa-principal{
+.caixa-principal {
     background-color: var(--cor-principal);
     width: 90%;
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-h1{
+h1 {
     color: var(--cor-destaque);
 }
 
@@ -34,10 +35,10 @@ button {
     border: none;
     border-radius: 15px;
     padding: 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-button:hover{
+button:hover {
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
 }
