@@ -1,8 +1,8 @@
 :root {
-    --cor-fundo: #F0F4F8;         /* Fundo claro */
-    --cor-principal: #FFFFFF;     /* Caixa principal branca */
-    --cor-secundaria: #DDE9F4;    /* Botão em repouso - azul claro */
-    --cor-destaque: #0066CC;      /* Azul forte para destaque */
+    --cor-fundo: #f5f50a;         /* Fundo claro */
+    --cor-principal: #b02323;     /* Caixa principal vermelha*/
+    --cor-secundaria: #cf5d1b;    /* Botão em repouso - marrom */
+    --cor-destaque: #05d9f5;      /* Azul forte para destaque */
     --cor-texto: #1A1A1A;         /* Texto escuro para contraste */
 }
 
